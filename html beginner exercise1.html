@@ -24,7 +24,8 @@
        <a href = "https://www.google.com/" target = "_blank">Click To Open Google In New Tab</a> <!--target = _blank opens links in a new tab-->
        <h3><u>My Favorite Image Of The Day</u></h3>
        <!--right click on img and copy that URL for html, alt is important for accessibility and seo-->
-       <img src= "https://i.pinimg.com/1200x/42/f1/43/42f14310af4e8e4598066bf003daf841.jpg" width = 300px alt = "cute couple in autumn">
+       <img src= "https://i.pinimg.com/1200x/42/f1/43/42f14310af4e8e4598066bf003daf841.jpg" width = 300 alt = "cute couple in autumn">
+      
 
        <div>
         <h2><u>My Hobbies</u></h2>
@@ -72,7 +73,7 @@
         <label for = "email"><b>Email:</b></label>
         <input type = "email" id = "email" name = "email" placeholder = "Enter My Email" required>
         <br>
-        <p><b>Choose My Education Level</b></p>
+        <p><b>Choose My Education Level:</b></p>
         <label><!--radio buttons allows us choose 1 option in forms-->
            <input type = "radio" name = "studie" value = "Highschool" required>Highschool
         </label>
@@ -83,7 +84,7 @@
             <input type = "radio" name = "studie" value = "University" required>University
         </label>
         <br><br>
-        <label for = "country"> I Choose My Country:</label>
+        <label for = "country"><b>I Choose My Country:</b></label>
         <select id = "country" name = "country">
         <option value = "">Select</option> <!--option + value is to create dropdown-->
         <option value = "nl">Netherlands</option>
@@ -91,6 +92,16 @@
         <option value = "eng">England</option>
         <option value = "sngp">Singapore</option>
         </select>
+        <br>
+        <label for = "more hobbies"><b>Some More Of My Hobbies:</b>
+            <input type = "checkbox" name = "arcade games" value = "Gaming">Gaming
+        </label>
+        <label>
+            <input type = "checkbox" name = "travelling" value = "Travelling">Travelling
+        </label>
+        <label>
+            <input type = "checkbox" name = "anime" value = "Watching Anime">Anime
+        </label>
         <br>
         <button type = "submit">Submit</button> 
        </form>
