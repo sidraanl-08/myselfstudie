@@ -29,18 +29,18 @@
        <div>
         <h2><u>My Hobbies</u></h2>
         <p>I like to study, and make <em><b>Digital Scrapbooks</b></em> in free time</p>
-       </div>
+       </div><!--using divs to keep code structured and clean-->
 
        <table>
         <b><h2><u>My Table</u></h2></b>
-        <tr>
-            <th><b>Name</b></th>
+        <tr><!--tr is table row-->
+            <th><b>Name</b></th> <!--th is heading for table-->
             <th><strong>Age</strong></th>
             <th><strong>Place</strong></th>
             <th><b>University</b></th>
         </tr>
         <tr>
-            <td>Sidra</td>
+            <td>Sidra</td><!--td is table data what goes into table-->
             <td>24</td>
             <td>Amsterdam</td>
             <td>AUAS</td>
@@ -63,8 +63,8 @@
        <br>
 
        <form>
-        <label for = "name"><strong>First Name:</strong></label>
-        <input type = "text" id = "name" name = "name" placeholder = "Enter My First Name" required>
+        <label for = "name"><strong>First Name:</strong></label><!-- indicating this label is for name-->
+        <input type = "text" id = "name" name = "name" placeholder = "Enter My First Name" required> <!--required makes the user fill all the fields bfr submitting-->
         <br>
         <label for = "name"><b>Last Name:</b></label>
         <input type = "text" id = "name" name = "name" placeholder = "Enter My Last Name" required>
@@ -73,7 +73,7 @@
         <input type = "email" id = "email" name = "email" placeholder = "Enter My Email" required>
         <br>
         <p><b>Choose My Education Level</b></p>
-        <label>
+        <label><!--radio buttons allows us choose 1 option in forms-->
            <input type = "radio" name = "studie" value = "Highschool" required>Highschool
         </label>
         <label>
@@ -85,14 +85,14 @@
         <br><br>
         <label for = "country"> I Choose My Country:</label>
         <select id = "country" name = "country">
-        <option value = "">Select</option>
+        <option value = "">Select</option> <!--option + value is to create dropdown-->
         <option value = "nl">Netherlands</option>
         <option value = "pak">Pakistan</option>
         <option value = "eng">England</option>
         <option value = "sngp">Singapore</option>
         </select>
         <br>
-        <button type = "submit">Submit</button>
+        <button type = "submit">Submit</button> 
        </form>
     </body>
 </html>
