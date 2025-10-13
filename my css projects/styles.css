@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(192, 79, 98);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: purple;
+}
+
+.card {
+    background-color: violet;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    width: 300px;
+    margin: 40px auto;
+}
+
+.profile-image {
+        width: 120px;
+        height: 120px;
+        border-radius: 30%;
+        display: block;
+        margin: 0 auto 15px auto;
+}
+
+.card h2 {
+    color: purple;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: purple;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.card button:hover {
+    background-color: powderblue;
+    color: black;
+}
