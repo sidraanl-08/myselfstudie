@@ -34,6 +34,11 @@ body {
     margin-bottom: 20px;
 }
 
+.card p {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
 .card button {
     background-color: purple;
     color: white;
